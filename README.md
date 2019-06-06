@@ -23,6 +23,8 @@ Instructions for automating the last step are included within the patch itself.
 
 The patch will emit MIDI control messages on MIDI channel 1 by default. MIDI channel can be changed from within the patch.
 
+MIDI preferences such as which device to send MIDI outpu to can be set within Pd.
+
 Each button, joystick and throttle on the ps3 controller will emit MIDI control changes on different controller numbers. The defaults can be changed by editing the ps3-midi.pd patch. For each [throttle], [button], [stick] and [stickInv] object, the MIDI controller number can be changed by editing the object and changing the number after the object name.
 
 The GUI elements in ps3-midi.pd mainly serve to deliver visual feedback for quick verification that everything is connected correctly. These can thus be safely deleted for optimization in headless contexts etc.
