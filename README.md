@@ -6,8 +6,8 @@ Currently, getting input data from the buttons, throttles and joysticks on the p
 
 ## Requirements
 
-- A working installation of Pd (see link above for installation instructions)
-- The Pd external [hid], which pulls the data from the ps3 controller ([hid] can be installed from inside Pd with the _deken_ package manager).
+- A working installation of Pd. See link above for installation instructions.
+- The Pd external [hid], which pulls the data from HIDs - in this case the ps3 controller. [hid] can be installed from inside Pd with PD's _deken_ package manager.
 
 ## Usage
 
