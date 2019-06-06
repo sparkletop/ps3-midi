@@ -1,5 +1,5 @@
 #N canvas 652 122 1055 602 10;
-#X obj 408 124 tgl 20 0 empty empty empty 0 -6 0 8 -262144 -1 -1 2
+#X obj 408 124 tgl 20 0 empty empty empty 0 -6 0 8 -262144 -1 -1 0
 2;
 #X obj 480 401 tgl 25 0 empty empty empty 0 -6 0 8 -195568 -1 -1 0
 1;
@@ -45,14 +45,14 @@ btn_13 btn_10 btn_14 btn_11 btn_0 btn_4 btn_1 btn_3 btn_7 btn_9;
 #X obj 404 533 tgl 25 0 empty empty empty 0 -6 0 8 -195568 -1 -1 0
 1;
 #X obj 420 517 hsl 50 10 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 2431 1;
+-1 -1 0 1;
 #X obj 442 496 vsl 10 50 0 127 0 1 empty empty empty 0 -9 0 10 -262144
 -1 -1 2431 1;
 #X text 458 500 LEFT STICK;
 #X obj 614 532 tgl 25 0 empty empty empty 0 -6 0 8 -195568 -1 -1 0
 1;
 #X obj 630 516 hsl 50 10 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 2431 1;
+-1 -1 0 1;
 #X obj 652 495 vsl 10 50 0 127 0 1 empty empty empty 0 -9 0 10 -262144
 -1 -1 2431 1;
 #X text 668 499 RIGHT STICK;
@@ -99,7 +99,6 @@ on the PS3 can be changed by editing the numbers in the objects below
 the manual red bang (default behavior is due to pd crashing on load
 if the PS3 controller is not connected);
 #X obj 798 73 loadbang;
-#X obj 777 173 print;
 #X connect 0 0 2 0;
 #X connect 2 0 14 0;
 #X connect 9 0 2 0;
@@ -138,7 +137,7 @@ if the PS3 controller is not connected);
 #X connect 21 0 45 0;
 #X connect 39 0 33 0;
 #X connect 40 0 23 0;
-#X connect 41 0 68 0;
+#X connect 41 0 18 0;
 #X connect 45 0 19 2;
 #X connect 46 0 22 0;
 #X connect 47 0 32 0;
