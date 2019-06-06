@@ -11,9 +11,13 @@ Currently, getting input data from the buttons, throttles and joysticks on the p
 
 ## Usage
 
-To use ps3-midi, first a ps3 controller has to be paired and connected via bluetooth to the machine that is running Pd. Then open the ps3-midi.pd either from 'File' -> 'Open' in a Pd window or from a terminal: `pd ps3-midi.pd`
+Steps to get started:
 
-When the patch has opened, click the light red button in the top of the patch. This should allow Pd to pull sensor data from the ps3 controller. Instructions for automating this step is included with the patch.
+1. Pair and connect a ps3 controller via bluetooth with the machine that will be running ps3-midi.
+2. Open the ps3-midi.pd from 'File' -> 'Open' in a Pd window or from a terminal: `pd ps3-midi.pd`
+3. When the patch has opened, click the light red button in the top of the patch. Pd should now be pulling data from the ps3 controller, which can be verified in the Pd GUI.
+
+Instructions for automating the last step are included within the patch itself.
 
 ## Settings
 
